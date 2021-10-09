@@ -1,0 +1,100 @@
+body {
+    background: #FFFFFF;
+    margin: 0;
+    font-family: arial, sans-serif;
+   
+  }
+
+  img {
+    border: none;
+    height: 20%;
+    top: 0;
+    margin-top: 170px;
+    width: 20%;
+  }
+  .vertical-center {
+    margin-top: 140px;
+  }
+ .searchbar {
+    border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 30px;
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  width: 700px;
+}
+.searchbar:hover{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.searchbar:focus-within{
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline:none;
+}
+
+.searchbar-adv {
+  display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	width: 50%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+.button-s {
+     border: 1px solid transparent;
+     padding: 16px 17px;
+     outline: none;
+     font-size: 17px;
+     margin-right: 10px;
+     margin-top: 5px;
+     color: grey;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.sign-in-btn {
+  background-color: #4885ed;
+  color: #fff;
+  border:none;
+  border-radius: 3px;
+  padding: 7px 12px;
+  position: relative;
+  bottom: 0px;
+  font-weight: bold;
+  
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 14px;
+}
+nav a {
+	font-size: 15px;
+	display: inline-block;
+	line-height: 24px;
+	font-weight: 400;
+	color: rgb(0,0,0, 0.87);
+	cursor: pointer;
+	padding: 5px 6.7px;
+}
+nav a:hover {
+	text-decoration: underline;
+	opacity: .85;
+}
+nav img {
+	width: 34px;
+	padding: 5px;
+	margin: auto 7px;
+	cursor: pointer;
+}
+nav img:hover {
+	opacity: .8;
+}
